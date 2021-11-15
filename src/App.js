@@ -23,7 +23,7 @@ function App() {
         </a>
       </header>
       <body>
-        {name}
+        <h1>{name}</h1>
       </body>
     </div>
   );

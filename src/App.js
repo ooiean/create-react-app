@@ -1,7 +1,11 @@
 import logo from './logo.svg';
 import './App.css';
 
+import { useState } from 'react';
+
 function App() {
+  const [name, setName] = useState("Test Name");
+
   return (
     <div className="App">
       <header className="App-header">
@@ -18,6 +22,9 @@ function App() {
           Learn React
         </a>
       </header>
+      <body>
+        {name}
+      </body>
     </div>
   );
 }
